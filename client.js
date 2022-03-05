@@ -1,5 +1,5 @@
 const { io } = require('socket.io-client');
-const socket = io('ws://127.0.0.1:8888');
+const socket = io('ws://manager-node.begging.tech:8888');
 
 socket.on('connect', () => {
   console.log('Connected with server');
